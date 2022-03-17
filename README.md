@@ -159,3 +159,4 @@ http://localhost:3000/users にアクセスし、登録したデータがJSON形
 - [Start from scratch with relational databases (15 min) | Prisma Docs](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgres)
 - [prisma-examples/typescript/rest-express at latest · prisma/prisma-examples](https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-express)
 - [prisma と express でつくる REST API](https://zenn.dev/yamo/articles/prisma-express-rest-api#usercontroller)
+- [[Prisma] チートシート - Qiita](https://qiita.com/koffee0522/items/92be1826f1a150bfe62e)

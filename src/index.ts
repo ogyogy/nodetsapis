@@ -23,3 +23,17 @@ app.get("/users", async (req, res) => {
   })
   res.json(users)
 })
+
+app.get("/users/:id", async (req, res) => {
+  const { id } = req.params
+  const users = await prisma.user.findUnique({
+    where: {
+      id: Number(id),
+    },
+    include: {
+      posts: true,
+      profile: true,
+    },
+  })
+  res.json(users)
+})
